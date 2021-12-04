@@ -1,0 +1,37 @@
+{
+  "name": "waterlandent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
+    "build": "assemble",
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ochuowo/waterlandenterprise.git"
+  },
+  "keywords": [],
+  "author": "Ochuowo Otiato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ochuowo/waterlandenterprise/issues"
+  },
+  "homepage": "https://github.com/Ochuowo/waterlandenterprise#readme",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "build": "^0.1.4",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "npm-build": "0.0.1"
+  },
+  "devDependencies": {
+    "assemble": "^0.24.3",
+    "gh-pages": "^3.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
